@@ -37,7 +37,7 @@
 
 Была заполнена Google-форма с указанием Gmail-аккаунта для предоставления доступа к Google Cloud Platform.
 
-![GCP](images/Lab_1_pic_0.png)
+![GCP](pics/Lab_1_pic_0.png)
 
 ---
 
@@ -49,7 +49,7 @@
 - Email:  
   `dpukhova-sa-lab1@cloud-platforms-as-the-basis.iam.gserviceaccount.com`
 
-![Service Account](images/Lab_1_pic_1.png)
+![Service Account](pics/Lab_1_pic_1.png)
 
 ---
 
@@ -72,7 +72,7 @@
 - Имя: `dpukhova-vm-lab1`
 - Сервисный аккаунт: `dpukhova-sa-lab1`
 
-![VM](images/Lab_1_pic_2.png)
+![VM](pics/Lab_1_pic_2.png)
 
 ---
 
@@ -82,7 +82,7 @@
 
 Далее роли сервисного аккаунта были изменены, после чего при повторной проверке доступ к ресурсам Cloud Storage был ограничен. На основании проведённого эксперимента был сделан вывод о том, как работают роли и механизмы управления доступом в Google Cloud Platform.
 
-![Практическая проверка](images/Lab_1_pic_5.png)
+![Практическая проверка](pics/Lab_1_pic_5.png)
 
 ---
 
@@ -112,7 +112,7 @@ ls -lah lab1-files
 ```
 Результат: файлы успешно загружены на виртуальную машину.
 
-![Files](images/Lab_1_pic_3.png)
+![Files](pics/Lab_1_pic_3.png)
 
 ## 8. Изменение роли Service Account
 
@@ -121,7 +121,7 @@ ls -lah lab1-files
 - Было: **Storage Admin**  
 - Стало: **Compute Viewer**
 
-![Роль](images/Lab_1_pic_4.png)
+![Роль](pics/Lab_1_pic_4.png)
 
 ## 9. Проверка доступа после изменения роли
 
