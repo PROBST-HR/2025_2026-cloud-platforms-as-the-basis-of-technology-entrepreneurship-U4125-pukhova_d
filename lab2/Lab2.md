@@ -4,6 +4,6 @@
 **Year:** 2025/2026  
 **Group:** U4125  
 **Author:** Diana Pukhova  
-**Lab:** Lab1  
+**Lab:** Lab2  
 **Date of create:** 20.04.2026  
 **Date of finished:** 11.05.2026
