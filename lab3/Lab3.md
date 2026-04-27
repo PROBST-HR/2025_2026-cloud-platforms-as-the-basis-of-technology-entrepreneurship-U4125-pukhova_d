@@ -83,7 +83,7 @@ Google Cloud Platform (Cloud Storage)
 
 ![Public access](pics/Lab_3_pic_6.png)
 
-![Public_access](pics/Lab_3_pic_8.png)
+![Public_access](pics/lab_3_pic_8.png)
 
 ---
 
