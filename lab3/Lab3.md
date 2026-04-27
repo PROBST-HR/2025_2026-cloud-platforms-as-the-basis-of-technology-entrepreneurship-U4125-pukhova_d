@@ -43,6 +43,8 @@ Google Cloud Platform (Cloud Storage)
 
 После создания bucket стал доступен в списке хранилищ.
 
+![Bucket](pics/Lab_3_pic_1.png)
+
 ---
 
 ### 3.3 Загрузка файлов
@@ -51,6 +53,8 @@ Google Cloud Platform (Cloud Storage)
 
 Файлы успешно отобразились в интерфейсе Cloud Storage.
 
+![Files](pics/Lab_3_pic_2.png)
+
 ---
 
 ### 3.4 Создание папки и перемещение файлов
@@ -58,6 +62,12 @@ Google Cloud Platform (Cloud Storage)
 Внутри bucket была создана папка с названием `lab3 files`.
 
 2 из 3 загруженных файлов были перемещены в созданную папку с использованием функции Move.
+
+![Folder](pics/Lab_3_pic_3.png)
+
+![Folder-Files](pics/Lab_3_pic_4.png)
+
+![FF](pics/Lab_3_pic_5.png)
 
 ---
 
@@ -70,6 +80,8 @@ Google Cloud Platform (Cloud Storage)
 
 После этого файлы стали доступны публично через интернет.
 
+![Public access](pics/Lab_3_pic_6.png)
+
 ---
 
 ### 3.6 Получение ссылок на файлы
@@ -77,6 +89,8 @@ Google Cloud Platform (Cloud Storage)
 Для каждого файла была получена публичная ссылка через контекстное меню (Copy URL).
 
 Ссылки позволяют открыть изображения без авторизации.
+
+![URL](pics/Lab_3_pic_7.png)
 
 ---
 
