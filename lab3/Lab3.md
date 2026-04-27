@@ -78,9 +78,12 @@ Google Cloud Platform (Cloud Storage)
 - Добавлен пользователь: `allUsers`
 - Назначена роль: `Storage Object Viewer`
 
+Также, чтобы можно было настроить публичный доступ, нужно было убрать ограничения публичного доступа. 
 После этого файлы стали доступны публично через интернет.
 
 ![Public access](pics/Lab_3_pic_6.png)
+
+![Public_access](pics/Lab_3_pic_8.png)
 
 ---
 
