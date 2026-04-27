@@ -80,11 +80,15 @@ gsutil ls gs://lab1-bucket-itmo
 
 ```bash
 mkdir lab1-files
-
+```
 Выполнено копирование файлов:
-gsutil cp gs://lab1-bucket-itmo/* lab1-files/
 
+```bash
+gsutil cp gs://lab1-bucket-itmo/* lab1-files/
+```
 Проверка:
+
+```bash
 ls -lah lab1-files
 ```
 Результат: файлы успешно загружены на виртуальную машину.
