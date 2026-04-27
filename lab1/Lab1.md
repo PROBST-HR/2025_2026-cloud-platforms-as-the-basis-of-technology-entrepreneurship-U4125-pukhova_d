@@ -73,13 +73,7 @@
 
 ```bash
 gsutil ls gs://lab1-bucket-itmo
-
-gs://lab1-bucket-itmo/pic1.jpg
-gs://lab1-bucket-itmo/pic2.jpg
-gs://lab1-bucket-itmo/pic3.jpeg
-
-Вывод: доступ к бакету успешно получен.
-
+```
 ## 7. Копирование файлов из бакета на VM
 
 Создана локальная папка:
@@ -92,7 +86,7 @@ gsutil cp gs://lab1-bucket-itmo/* lab1-files/
 
 Проверка:
 ls -lah lab1-files
-
+```
 Результат: файлы успешно загружены на виртуальную машину.
 
 ## 8. Изменение роли Service Account
@@ -108,9 +102,7 @@ ls -lah lab1-files
 
 ```bash
 gsutil ls gs://lab1-bucket-itmo
-
-Наблюдение
-В активной сессии доступ сохранялся, что возможно связано с использованием ранее выданного OAuth-токена.
+```
 
 ## Выводы
 
@@ -134,3 +126,5 @@ gsutil ls gs://lab1-bucket-itmo
 - Compute Engine  
 - Cloud Storage  
 - утилитой `gsutil`
+
+
